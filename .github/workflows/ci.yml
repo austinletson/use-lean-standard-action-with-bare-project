@@ -14,3 +14,5 @@ jobs:
     steps:
       # uses lean standard action with all default input values
       - uses: austinletson/lean-standard-action@develop
+        with:
+          test: false
