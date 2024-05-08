@@ -16,3 +16,4 @@ jobs:
       - uses: leanprover/lean-action@1-add-support-for-lean4checker
         with:
           test: false
+          lean4checker: true
