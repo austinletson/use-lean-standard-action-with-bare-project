@@ -13,6 +13,6 @@ jobs:
 
     steps:
       # uses lean standard action with all default input values
-      - uses: austinletson/lean-standard-action@develop
+      - uses: leanprover/lean-action@1-add-support-for-lean4checker
         with:
           test: false
