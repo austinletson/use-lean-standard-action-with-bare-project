@@ -12,8 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # uses lean standard action with all default input values
-      - uses: leanprover/lean-action@1-add-support-for-lean4checker
+      - uses: leanprover/lean-action@release/v1-alpha
         with:
           test: false
-          lean4checker: true
+          check-reservoir-eligibility: true
