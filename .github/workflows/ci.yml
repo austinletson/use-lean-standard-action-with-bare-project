@@ -15,4 +15,4 @@ jobs:
       - uses: leanprover/lean-action@release/v1-alpha
         with:
           test: false
-          check-reservoir-eligibility: false
+          check-reservoir-eligibility: true
