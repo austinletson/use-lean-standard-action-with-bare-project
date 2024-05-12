@@ -15,3 +15,4 @@ jobs:
       - uses: leanprover/lean-action@release/v1-alpha
         with:
           test: false
+          lean4checker: true
