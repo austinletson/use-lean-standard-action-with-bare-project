@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: leanprover/lean-action@release/v1-alpha
+      - uses: leanprover/lean-action@v1-alpha
         with:
           test: false
           check-reservoir-eligibility: true
