@@ -12,6 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - uses: actions/checkout@v4
       - uses: leanprover/lean-action@19-improve-log-readability-by-grouping-log-lines-inside-of-steps
         with:
           test: false
