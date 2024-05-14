@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: leanprover/lean-action@v1-alpha
+      - uses: leanprover/lean-action@19-improve-log-readability-by-grouping-log-lines-inside-of-steps
         with:
           test: false
           check-reservoir-eligibility: true
