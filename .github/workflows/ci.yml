@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - uses: leanprover/lean-action@19-improve-log-readability-by-grouping-log-lines-inside-of-steps
+      - uses: leanprover/lean-action@v1-alpha
         with:
           test: false
           check-reservoir-eligibility: true
