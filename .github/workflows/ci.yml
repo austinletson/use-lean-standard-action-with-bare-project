@@ -16,3 +16,4 @@ jobs:
       - uses: leanprover/lean-action@15-add-input-to-support-passing-parameters-to-lake-build
         with:
           test: false
+          build-args: "--quiet"
