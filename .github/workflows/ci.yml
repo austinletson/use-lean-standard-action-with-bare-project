@@ -13,7 +13,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - uses: leanprover/lean-action@15-add-input-to-support-passing-parameters-to-lake-build
+      - uses: oliver-butterley/lean-action@log-info
         with:
           test: false
-          build-args: "--quiet"
