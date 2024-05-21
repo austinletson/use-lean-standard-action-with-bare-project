@@ -13,6 +13,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - uses: oliver-butterley/lean-action@log-info
+      - uses: leanprover/lean-action@release/v1-beta
         with:
           test: false
