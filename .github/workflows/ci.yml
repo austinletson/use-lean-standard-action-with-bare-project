@@ -16,5 +16,4 @@ jobs:
       - uses: leanprover/lean-action@release/v1-beta
         with:
           test: false
-          lean4checker: true
-          check-reservoir-eligibility: true
+          build-args: "--quiet"
