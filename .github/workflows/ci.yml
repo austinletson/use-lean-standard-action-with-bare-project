@@ -13,8 +13,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - uses: leanprover/lean-action@34-support-repositories-with-subdirectory-lean-packages
+      - uses: leanprover/lean-action@upgrade-elan
         with:
           test: false
-          build-args: "--quiet"
-          use-github-cache: false
