@@ -13,6 +13,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - uses: leanprover/lean-action@upgrade-elan
+      - uses: leanprover/lean-action@release/v1-beta.1
         with:
           test: false
