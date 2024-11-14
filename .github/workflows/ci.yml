@@ -2,9 +2,7 @@ name: CI
 
 on:
   push:
-    branches: ["main"]
   pull_request:
-    branches: ["main"]
   workflow_dispatch:
 
 jobs:
@@ -12,7 +10,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: leanprover/lean-action@release/v1-alpha
+      - uses: actions/checkout@v4
+      - uses: leanprover/lean-action@v1
         with:
+          build-args: --wfail
           test: false
-          check-reservoir-eligibility: true
