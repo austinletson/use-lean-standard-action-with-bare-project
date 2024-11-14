@@ -13,5 +13,5 @@ jobs:
       - uses: actions/checkout@v4
       - uses: leanprover/lean-action@v1
         with:
-          build-args: '--log-level=warning'
+          build-args: --log-level=warning
           test: false
