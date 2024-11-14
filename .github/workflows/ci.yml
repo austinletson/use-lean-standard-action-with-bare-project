@@ -11,6 +11,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - uses: leanprover/lean-action@70-fix-github-cache-keys-to-reduce-problems-with-the-cache-when-updating-lean-version
+      - uses: leanprover/lean-action@v1
         with:
+          build-args: '--log-level=warning'
           test: false
