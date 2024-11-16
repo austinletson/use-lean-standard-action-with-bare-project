@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - uses: leanprover/lean-action@v1
+      - uses: leanprover/lean-action@fix-multiple-lake-build-args
         with:
           build-args: '--log-level=warning --fail-level=warning'
           test: false
