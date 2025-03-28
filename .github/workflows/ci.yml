@@ -11,4 +11,4 @@ jobs:
     
     steps:
       - uses: actions/checkout@v4
-      - uses: leanprover/lean-action@v1.1.2
+      - uses: leanprover/lean-action@v1
